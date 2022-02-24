@@ -1,0 +1,14 @@
+
+modLoader="javafml"
+loaderVersion="[39,)"
+license="MIT"
+
+[[mods]]
+
+modId="plants_and_scapes"
+version="${file.jarVersion}"
+displayName="Plants & Scapes!"
+logoFile="examplemod.png"
+credits="Thanks for this example mod goes to Java"
+authors="Tired Torch"
+description=''' v. 0.0.1 '''
