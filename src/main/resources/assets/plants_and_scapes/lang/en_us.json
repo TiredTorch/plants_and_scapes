@@ -2,5 +2,7 @@
   "item.plants_and_scapes.light_medicine" : "Light medicine",
   "item.plants_and_scapes.medium_medicine" : "Medium medicine",
 
-  "block.plants_and_scapes.herb_block" : "Herbs"
+  "block.plants_and_scapes.herb_block" : "Herbs",
+
+  "itemGroup.plants_and_scapes_tab": "Plants & Scapes"
 }

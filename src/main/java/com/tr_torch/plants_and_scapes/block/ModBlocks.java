@@ -1,6 +1,7 @@
 package com.tr_torch.plants_and_scapes.block;
 
 import com.tr_torch.plants_and_scapes.Plants_and_Scapes_Main;
+import com.tr_torch.plants_and_scapes.item.ModCreativeModeTab;
 import com.tr_torch.plants_and_scapes.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -9,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -23,7 +25,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> HERB_BLOCK = registerBlock("herb_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.PLANT)
                     .strength(9f)
-                    .requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.PLANTS_AND_SCAPES_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
