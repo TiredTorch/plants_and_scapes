@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "plants_and_scapes:item/light_medicine"
+  }
+}
