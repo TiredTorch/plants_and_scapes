@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "plants_and_scapes:block/herb_block" }
+  }
+}

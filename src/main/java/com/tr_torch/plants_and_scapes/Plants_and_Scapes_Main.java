@@ -1,5 +1,6 @@
 package com.tr_torch.plants_and_scapes;
 
+import com.tr_torch.plants_and_scapes.block.ModBlocks;
 import com.tr_torch.plants_and_scapes.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -21,6 +22,7 @@ public class Plants_and_Scapes_Main
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
