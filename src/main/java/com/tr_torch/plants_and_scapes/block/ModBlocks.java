@@ -23,8 +23,8 @@ public class ModBlocks {
 
     ///BLOCKS///
     public static final RegistryObject<Block> HERB_BLOCK = registerBlock("herb_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.PLANT)
-                    .strength(9f)
+            () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS)
+                    .strength(2f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.PLANTS_AND_SCAPES_TAB);
 
 
